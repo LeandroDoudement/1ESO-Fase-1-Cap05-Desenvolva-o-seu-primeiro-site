@@ -1,151 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Drones.NET</title>
+    <title>Drones Net</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <img src="./img/logo.fw.png" alt="Dronet NET logo" />
-      <nav>
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">NOSSA EMPRESA</a></li>
-          <li><a href="#">LOJAS</a></li>
-          <li><a href="#">CONTATO</a></li>
-        </ul>
-      </nav>
-      <img src="./img/banner.fw.png" alt="Drone Banner" />
-      <nav>
-        <ul>
-          <li><a href="#">PRODUTOS</a></li>
-          <li><a href="#">LOJA VIRTUAL</a></li>
-          <li><a href="#">CURSOS</a></li>
-          <li><a href="#">SERVIÇOS</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div>
-        <p>LOJA VIRTUAL</p>
-        <hr />
-        <img src="./img/imgDroneA.png" alt="Imagem Drone A" />
+    <div class="wrapper">
+      <header>
+        <div class="top-logo">
+          <img 
+            src="./img/logo.fw.png"
+            alt="logo drones net"
+            width="194px"
+            height="146px"
+          />
+        </div>
+        <nav class="first-menu">
+          <ul id="top-menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">NOSSA EMPRESA</a></li>
+            <li><a href="#">LOJAS</a></li>
+            <li><a href="#">LOCALIZAÇÃO</a></li>
+            <li><a href="#">CONTATO</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="principal">
+          <div class="top-banner">
+            <img
+            src="./img/banner.fw.png"
+            alt="imagem de um drone sobrevoando deserto"
+            width="980px"
+            height="350px;">
+          </div>
+          <div class="bottom-main">
+            <div class="second-menu">
+              <ul id="bottom-menu">
+                <li><a href="#">PRODUTOS</a></li>
+                <li><a href="#">LOJA <br> VIRTUAL</a></li>
+                <li><a href="#">CURSOS</a></li>
+                <li><a href="#">SERVIÇOS</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <div>
+          <p>LOJA VIRTUAL</p>
+          <hr />
+          <img src="./img/imgDroneA.png" alt="Imagem Drone A" />
+        </div>
+        <section>
+          <div>
+            <div>
+              <p>Dji Inspire 1</p>
+            </div>
+            <img src="./img/DroneA.png" alt="Drone A" />
+            <p>
+              O Inspire 1 é o novo quadricóptero da DJI,
+              <br />
+              capaz de capturar imagens em 4k e
+              <br />
+              transmiti-las ao vivo
+            </p>
+            <div>
+              <p>R$ 8.000,00</p>
+              <p>24x R$ 333,00</p>
+              <img src="./img/carrinho.png" alt="Carrinho" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p>Phantom 2 + Zenmuse H3-3D</p>
+            </div>
+            <img src="./img/DroneB.png" alt="Drone B" />
+            <p>
+              O Phantom 2 é um dos quadricópteros mais
+              <br />
+              desejados por quem buscar um drone
+              <br />
+              profissional
+            </p>
+            <div>
+              <p>R$ 12.000,00</p>
+              <p>24x R$ 500,00</p>
+              <img src="./img/carrinho.png" alt="Carrinho" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p>AR.Drone 2.0</p>
+            </div>
+            <img src="./img/DroneC.png" alt="Drone C" />
+            <p>
+              O AR.Drone é um dos brinquedos mais legais
+              <br />
+              do mundo. A ideia de controlar um
+              <br />
+              quadricóptero com um Iphone/Ipad ou Android
+            </p>
+            <div>
+              <p>R$ 1.500,00</p>
+              <p>24x R$ 62,00</p>
+              <img src="./img/carrinho.png" alt="Carrinho" />
+            </div>
+          </div>
+        </section>
+        <div>
+          <p>SERVIÇOS</p>
+          <hr />
+          <img src="./img/imgDroneB.png" alt="Imagem Drone B" />
+        </div>
+        <section>
+          <div>
+            <img src="./img/ServicosA.png" alt="Serviço A" />
+            <p>Cursos</p>
+            <p>
+              Graças a nossos equipamentos sofisticados podemos lhe oferecer uma
+              experiência incrível de voo e podemos lhe ensinar como realizar uma
+              captação de vídeos e fotos aéreas com alta qualidade voltadas a
+              atender todo o mercado de produção audiovisual. As aulas podem
+              ocorrer também com o equipamento pessoal do aluno.
+            </p>
+          </div>
+          <div>
+            <img src="./img/ServicosB.png" alt="Serviço B" />
+            <p>MANUTENÇÕES</p>
+            <p>
+              Temos um completo Laboratório de eletrônica, nossos técnicos
+              utilizam alta tecnologia para efetuar o reparo do seu Drone.
+              Efetuamos o reparo da camera GoPro, e dos Quadricopteros da linha
+              DJI Phantom e AR.Drone 1.0 e 2.0.
+            </p>
+          </div>
+          <div>
+            <img src="./img/ServicosC.png" alt="Serviço C" />
+            <p>FILMAGENS AEREAS</p>
+            <p>
+              Graças a nossos equipamentos sofisticadospodemos lhe oferecer uma
+              experiência incrivel de voo e podemos lhe ensinar como realizar uma
+              captação de vídeos e fotos aéreas com alta qualidade voltadas a
+              atender todo o mercado de produção audiovisual. As aulas podem
+              ocorrer também com o equipamento pessoal do aluno.
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="drones">
+          <img
+            src="./img/imgDroneC.png"
+            alt="Drones"
+          />
+          <img
+            src="./img/imgDroneC.png"
+            alt="Drones" 
+          />
+          <img
+            src="./img/imgDroneC.png"
+            alt="Drones"
+          />
+        </div>
+        <div class="first-footer">
+          <img
+            src="./img/logo.png"
+            alt="Logo-footer"
+          />
+          <p class="text">
+            Boa Sorte meu amigo! que sua estrada seja feita de campos verdes
+            para que seus pés <br />caminhem para o sucesso... <br />Boa Sorte de
+            coração
+          </p>
+        </div>
+       <div class="second-footer">Prof. Bortola</div>
+       <div class="professor">
+        <img
+          src="./img/imgProfessor.png"
+          alt="Imagem do professor"
+        />
       </div>
-      <section>
-        <div>
-          <div>
-            <p>Dji Inspire 1</p>
-          </div>
-          <img src="./img/DroneA.png" alt="Drone A" />
-          <p>
-            O Inspire 1 é o novo quadricóptero da DJI,
-            <br />
-            capaz de capturar imagens em 4k e
-            <br />
-            transmiti-las ao vivo
-          </p>
-          <div>
-            <p>R$ 8.000,00</p>
-            <p>24x R$ 333,00</p>
-            <img src="./img/carrinho.png" alt="Carrinho" />
-          </div>
-        </div>
-        <div>
-          <div>
-            <p>Phantom 2 + Zenmuse H3-3D</p>
-          </div>
-          <img src="./img/DroneB.png" alt="Drone B" />
-          <p>
-            O Phantom 2 é um dos quadricópteros mais
-            <br />
-            desejados por quem buscar um drone
-            <br />
-            profissional
-          </p>
-          <div>
-            <p>R$ 12.000,00</p>
-            <p>24x R$ 500,00</p>
-            <img src="./img/carrinho.png" alt="Carrinho" />
-          </div>
-        </div>
-        <div>
-          <div>
-            <p>AR.Drone 2.0</p>
-          </div>
-          <img src="./img/DroneC.png" alt="Drone C" />
-          <p>
-            O AR.Drone é um dos brinquedos mais legais
-            <br />
-            do mundo. A ideia de controlar um
-            <br />
-            quadricóptero com um Iphone/Ipad ou Android
-          </p>
-          <div>
-            <p>R$ 1.500,00</p>
-            <p>24x R$ 62,00</p>
-            <img src="./img/carrinho.png" alt="Carrinho" />
-          </div>
-        </div>
-      </section>
-      <div>
-        <p>SERVIÇOS</p>
-        <hr />
-        <img src="./img/imgDroneB.png" alt="Imagem Drone B" />
-      </div>
-      <section>
-        <div>
-          <img src="./img/ServicosA.png" alt="Serviço A" />
-          <p>Cursos</p>
-          <p>
-            Graças a nossos equipamentos sofisticados podemos lhe oferecer uma
-            experiência incrível de voo e podemos lhe ensinar como realizar uma
-            captação de vídeos e fotos aéreas com alta qualidade voltadas a
-            atender todo o mercado de produção audiovisual. As aulas podem
-            ocorrer também com o equipamento pessoal do aluno.
-          </p>
-        </div>
-        <div>
-          <img src="./img/ServicosB.png" alt="Serviço B" />
-          <p>MANUTENÇÕES</p>
-          <p>
-            Temos um completo Laboratório de eletrônica, nossos técnicos
-            utilizam alta tecnologia para efetuar o reparo do seu Drone.
-            Efetuamos o reparo da camera GoPro, e dos Quadricopteros da linha
-            DJI Phantom e AR.Drone 1.0 e 2.0.
-          </p>
-        </div>
-        <div>
-          <img src="./img/ServicosC.png" alt="Serviço C" />
-          <p>FILMAGENS AEREAS</p>
-          <p>
-            Graças a nossos equipamentos sofisticadospodemos lhe oferecer uma
-            experiência incrivel de voo e podemos lhe ensinar como realizar uma
-            captação de vídeos e fotos aéreas com alta qualidade voltadas a
-            atender todo o mercado de produção audiovisual. As aulas podem
-            ocorrer também com o equipamento pessoal do aluno.
-          </p>
-        </div>
-      </section>
-    </main>
-    <div>
-      <img src="./img/imgDroneC.png" alt="Imagem Drone C" />
-      <img src="./img/imgDroneC.png" alt="Imagem Drone C" />
-      <img src="./img/imgDroneC.png" alt="Imagem Drone C" />
+      </footer>
     </div>
-    <footer>
-      <img src="./img/logo.png" alt="logo" />
-      <p>
-        Boa Sorte meu amigo! que sua estrada seja feita de campos verdes para
-        que seus pés
-        <br />
-        caminhem para o sucesso...
-        <br />
-        Boa Sorte do coração!
-      </p>
-      <img src="./img/imgProfessor.png" alt="Prof.Bortola" />
-      <p>Prof.Bortola</p>
-    </footer>
+   </div>
   </body>
 </html>
